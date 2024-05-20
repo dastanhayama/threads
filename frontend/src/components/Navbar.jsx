@@ -7,7 +7,7 @@ import { FiUser } from "react-icons/fi";
 import Button from "./Button";
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center fixed top-0 left-0 w-full z-10 lg:px-20 px-6 py-2 glassmorphism">
+    <nav className="flex justify-between items-center fixed top-0 left-1/2 transform -translate-x-1/2 w-full z-10 lg:px-20 px-6 py-2 glassmorphism max-w-[1440px]">
         <div className="cursor-pointer">
         <BsThreads size={32}/>
 
